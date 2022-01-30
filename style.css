@@ -13,6 +13,9 @@ model-viewer {
 	height: 800px;
 	--poster-color: black;
 }
+model-viewer:focus-visible {
+	border: none;
+}
 .rightContainer {
 	display: flex;
 	flex-direction: column;
@@ -112,7 +115,7 @@ model-viewer {
 	}
 	model-viewer {
 		margin-top: 2rem;
-		width: 150px;
+		width: 300px;
 		height: 150px;
 	}
 	.rightContainer {
