@@ -77,6 +77,9 @@ model-viewer {
 	border-bottom-left-radius: 0;
 }
 .bottomBoxes > .highlightBox:nth-child(2) {
+	border-radius: 0;
+}
+.bottomBoxes > .highlightBox:nth-child(3) {
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
 }
