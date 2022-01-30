@@ -1,6 +1,12 @@
 @font-face {
 	font-family: appleFont;
+	src: url(assets/SFNSDisplay-Heavy.otf);
+	font-weight: 800;
+}
+@font-face {
+	font-family: appleFont;
 	src: url(assets/SF-UI-Display-Regular.otf);
+	font-weight: normal;
 }
 * {
 	padding: 0;
@@ -9,7 +15,7 @@
 }
 body {
 	max-height: 100vh;
-	background: radial-gradient(circle, rgb(61, 61, 61) 0%, rgba(1, 1, 1, 1) 100%);
+	background: radial-gradient(circle, rgb(37, 37, 37) 0%, rgba(1, 1, 1, 1) 100%);
 }
 model-viewer {
 	margin-top: 4rem;
@@ -34,7 +40,7 @@ model-viewer:focus-visible {
 .titleMint {
 	color: white;
 	font-size: 2rem;
-	font-weight: bold;
+	font-weight: 800;
 }
 .underTitle {
 	margin: 0.5rem 0;
@@ -42,8 +48,8 @@ model-viewer:focus-visible {
 }
 
 .connectButton {
-	background-color: purple;
-	border: 1px solid rgb(141, 42, 144);
+	background-color: rgb(184, 33, 184);
+	outline: 3px solid rgb(167, 97, 170);
 	color: white;
 	padding: 0.7rem 0;
 	border-radius: 0.3rem;
@@ -52,10 +58,11 @@ model-viewer:focus-visible {
 	font-weight: 600;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
+	border: none;
 }
 
 .connectButton:hover {
-	background-color: rgb(168, 34, 168);
+	background-color: rgb(211, 80, 211);
 }
 .highlightBox {
 	display: flex;
@@ -64,7 +71,7 @@ model-viewer:focus-visible {
 	border: 1px solid rgb(71, 71, 71);
 	border-radius: 0.3rem;
 	padding: 1.3rem;
-	gap: 1rem;
+	gap: 0.5rem;
 }
 .boxes {
 	display: flex;
@@ -76,6 +83,7 @@ model-viewer:focus-visible {
 }
 .boxText {
 	color: gray;
+	line-height: 1.5rem;
 }
 .bottomBoxes > .highlightBox {
 	padding: 1rem;
