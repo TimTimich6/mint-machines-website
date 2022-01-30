@@ -23,9 +23,12 @@ model-viewer {
 	height: 800px;
 	--poster-color: black;
 }
+model-viewer:focus,
 model-viewer:focus-visible {
 	border: none;
+	outline: none;
 }
+
 model-viewer::part(default-progress-bar) {
 	visibility: hidden;
 }
@@ -67,6 +70,11 @@ model-viewer::part(default-progress-bar) {
 .connectButton:hover {
 	background-color: rgb(211, 80, 211);
 }
+.connectButton:focus-visible,
+.connectButton:focus {
+	border: none;
+}
+
 .highlightBox {
 	display: flex;
 	flex-direction: column;
