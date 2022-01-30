@@ -92,7 +92,7 @@ model-viewer:focus-visible {
 	justify-content: center;
 	align-items: center;
 	gap: 2rem;
-	margin: 1.5rem;
+	margin: 0 1.5rem;
 }
 .promotion {
 	display: flex;
