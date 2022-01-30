@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <model-viewer src="./model.gltf"  auto-rotate disable-zoom camera-controls loading="auto" ></model-viewer>
+        <div class="rightContainer">
+            <div class="topPart">
+                <span class="titleMint">Mint Machines</span>
+                <span class="underTitle">After minting, you will receive access to our invite bot. Check our discord for instructions on verification.</span>
+            </div> 
+            <button class="connectButton">
+                Connect
+            </button>
+            <div class="boxes">
+                <div class="highlightBox">
+                <span class="boxTitle">Description</span>
+                <span class="boxText">
+                    Mint Machines is a software that is exclusive to holders of the Mint Machine NFT. It allows you to get instant invites to any discord server allowing you to get whitelisted to projects without struggling to get invites manually.
+                </span>
+                </div>
+                <div class="bottomBoxes">
+                    <div class="highlightBox">
+                        <span class="boxTitle">Supply: <b>555</b></span>
+                    </div>
+                    <div class="highlightBox">
+                        <span class="boxTitle">Remaining: <b>0</b></span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="promotion">
+        <a  href="https://discord.gg/Zs7dZanJyu" target="_blank"><img class="promoLogo" src="./discord.svg"></a>
+        <a  href="https://discord.gg/Zs7dZanJyu" target="_blank"><img class="promoLogo" src="./twitter.svg"></a>
+    </div>
+</body>
+</html>
