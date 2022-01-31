@@ -22,10 +22,12 @@ body {
 	align-items: center; */
 }
 model-viewer {
+	visibility: hidden;
 	margin-top: 4rem;
 	width: 600px;
 	height: 800px;
 	--poster-color: black;
+	transition: all 1s ease;
 }
 model-viewer:focus,
 model-viewer:focus-visible {
